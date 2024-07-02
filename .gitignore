@@ -1,0 +1,19 @@
+# Ignore specific files
+config.ini
+secrets.txt
+
+# Ignore all files with certain extensions
+*.log
+*.tmp
+
+# Ignore entire directories
+node_modules/
+build/
+
+# Ignore files in specific directories
+logs/*.log
+
+# Use ! to negate a previous pattern
+!important.log
+
+# Use # for comments
