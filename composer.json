@@ -13,6 +13,8 @@
         }
     ],
     "require": {
-        "scssphp/scssphp": "^1.12"
+        "scssphp/scssphp": "^1.12",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "^7.8"
     }
 }

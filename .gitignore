@@ -2,6 +2,8 @@
 config.ini
 secrets.txt
 api.txt
+token.txt
+curl_test.php
 
 # Ignore all files with certain extensions
 *.log

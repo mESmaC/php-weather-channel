@@ -1,0 +1,64 @@
+@import 'var';
+
+:root {
+    background-color: $background;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family;
+    color: $text-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.core {
+    width: 90%;
+    max-width: 400px;
+    background-color: $card-background;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+@media (max-width: 600px) {
+    .core {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
