@@ -1,6 +1,7 @@
 # Ignore specific files
 config.ini
 secrets.txt
+api.txt
 
 # Ignore all files with certain extensions
 *.log
@@ -17,3 +18,4 @@ logs/*.log
 !important.log
 
 # Use # for comments
+/vendor/
